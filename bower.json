@@ -1,0 +1,61 @@
+{
+  "name": "oncokb",
+  "version": "2.0.0",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "angular": "~1.4.8",
+    "json3": "~3.3.1",
+    "es5-shim": "~3.1.0",
+    "bootstrap-sass-official": "~3.2.0",
+    "angular-resource": "~1.4.8",
+    "angular-cookies": "~1.4.8",
+    "angular-sanitize": "~1.4.8",
+    "angular-animate": "~1.4.8",
+    "angular-touch": "~1.4.8",
+    "angular-route": "~1.4.8",
+    "angular-bootstrap": "~0.14.3",
+    "angular-chosen": "*",
+    "bootstrap-chosen": "*",
+    "angular-chosen-localytics": "^1.4.0",
+    "angular-dialog-service": "~5.2.8",
+    "angular-recursion": "~1.0.5",
+    "jszip": "Stuk/jszip#~2.4.0",
+    "js-xlsx": "~0.7.11",
+    "stringjs": "~2.2.0",
+    "levenshtein": "~1.0.5",
+    "oridomi": "~1.1.5",
+    "angular-xml": "~2.2.1",
+    "jspdf": "~1.0.272",
+    "angular-contenteditable": "~0.3.7",
+    "underscore": "~1.7.0",
+    "datatables": "~1.10.5",
+    "angular-datatables": "~0.4.0",
+    "lodash": "~3.2.0",
+    "please-wait": "~0.0.2",
+    "spinkit": "~1.0.1",
+    "angular-ui-sortable": "~0.13.3",
+    "d3": "~3.5.5",
+    "angular-file-upload": "~1.1.5",
+    "file-saver.js": "~1.20150304.1",
+    "fontawesome": "~4.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.8",
+    "angular-scenario": "~1.4.8"
+  },
+  "appPath": "app",
+  "distPath": "dist",
+  "resolutions": {
+    "angular": "~1.4.8",
+    "angular-bootstrap": "~0.14.3"
+  },
+  "overrides": {
+    "angular-dialog-service": {
+      "main": [
+        "dist/dialogs.min.css",
+        "dist/dialogs.min.js",
+        "dist/dialogs-default-translations.min.js"
+      ]
+    }
+  }
+}
